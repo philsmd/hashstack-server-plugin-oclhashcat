@@ -1,0 +1,2221 @@
+[
+    {
+        "algorithm": "1Password, agilekeychain", 
+        "devices": [], 
+        "extensions": [
+            "keychain"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "1Password, cloudkeychain", 
+        "devices": [], 
+        "extensions": [
+            "keychain"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "AIX {smd5}", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "AIX {ssha1}", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "AIX {ssha256}", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "AIX {ssha512}", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Android FDE <= 4.3", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Android Password/PIN", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Cisco $8$", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Cisco $9$", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Cisco-ASA MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Cisco-IOS SHA256", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Cisco-PIX MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Citrix Netscaler", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "descrypt, DES(Unix), Traditional DES", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Django (PBKDF2-SHA256)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Django (SHA-1)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "DNSSEC (NSEC3)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Domain Cached Credentials, mscash", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Domain Cached Credentials2, mscash2", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Double MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Double SHA1", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Drupal7", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "EPiServer 6.x < v4", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "EPiServer 6.x > v4", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "GOST R 34.11-94", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "GRUB 2", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Half MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-MD5 (key = $pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-MD5 (key = $salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-SHA1 (key = $pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-SHA1 (key = $salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-SHA256 (key = $pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-SHA256 (key = $salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-SHA512 (key = $pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "HMAC-SHA512 (key = $salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "hMailServer", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "IKE-PSK MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "IKE-PSK SHA1", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "IPB2+, MyBB1.2+", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "IPMI2 RAKP HMAC-SHA1", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Joomla < 2.5.18", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Juniper IVE", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Juniper Netscreen/SSG (ScreenOS)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Kerberos 5 AS-REQ Pre-Auth etype 23", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Lastpass", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "LM", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Lotus Notes/Domino 5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Lotus Notes/Domino 6", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Lotus Notes/Domino 8", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MD4", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5apr1, MD5(APR), Apache MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MD5(Chap), iSCSI CHAP authentication", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5crypt, MD5(Unix), FreeBSD MD5, Cisco-IOS MD5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($pass.$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($pass.$salt.$pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($salt.md5($pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($salt.$pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5($salt.unicode($pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5(sha1($pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5(strtoupper(md5($pass)))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "md5(unicode($pass).$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MediaWiki B-type", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Office 97-2003 MD5 + RC4", 
+        "devices": [], 
+        "extensions": [
+            "doc", 
+            "dot", 
+            "xls", 
+            "xlt", 
+            "xlm", 
+            "ppt", 
+            "pot", 
+            "pps"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": false, 
+        "scraper": "office2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Office 97-2003 SHA1 + RC4", 
+        "devices": [], 
+        "extensions": [
+            "doc", 
+            "dot", 
+            "xls", 
+            "xlt", 
+            "xlm", 
+            "ppt", 
+            "pot", 
+            "pps"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": false, 
+        "scraper": "office2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Microsoft Office 2007", 
+        "devices": [], 
+        "extensions": [
+            "docx", 
+            "docm", 
+            "dotx", 
+            "dotm", 
+            "xlsx", 
+            "xlsm", 
+            "xltx", 
+            "xltm", 
+            "xlsb", 
+            "xlam", 
+            "pptx", 
+            "pptm", 
+            "potx", 
+            "potm", 
+            "ppam", 
+            "ppsx", 
+            "ppsm", 
+            "sldx", 
+            "sldm", 
+            "thmx"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "office2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Microsoft Office 2010", 
+        "devices": [], 
+        "extensions": [
+            "docx", 
+            "docm", 
+            "dotx", 
+            "dotm", 
+            "xlsx", 
+            "xlsm", 
+            "xltx", 
+            "xltm", 
+            "xlsb", 
+            "xlam", 
+            "pptx", 
+            "pptm", 
+            "potx", 
+            "potm", 
+            "ppam", 
+            "ppsx", 
+            "ppsm", 
+            "sldx", 
+            "sldm", 
+            "thmx"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "office2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Microsoft Office 2013", 
+        "devices": [], 
+        "extensions": [
+            "docx", 
+            "docm", 
+            "dotx", 
+            "dotm", 
+            "xlsx", 
+            "xlsm", 
+            "xltx", 
+            "xltm", 
+            "xlsb", 
+            "xlam", 
+            "pptx", 
+            "pptm", 
+            "potx", 
+            "potm", 
+            "ppam", 
+            "ppsx", 
+            "ppsm", 
+            "sldx", 
+            "sldm", 
+            "thmx"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "office2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "MSSQL(2000)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MSSQL(2005)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MSSQL(2012), MSSQL(2014)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MySQL323", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "MySQL4.1/MySQL5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "NetNTLMv1-VANILLA / NetNTLMv1+ESS", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "NetNTLMv2", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "nsldap, SHA-1(Base64), Netscape LDAP SHA", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "nsldaps, SSHA-1(Base64), Netscape LDAP SSHA", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "NTLM", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Oracle 11g/12c", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Oracle 7-10g, DES(Oracle)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "osCommerce, xt:Commerce", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "OSX v10.4, v10.5, v10.6", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "OSX v10.7", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "OSX v10.8 / v10.9", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Password Safe v2", 
+        "devices": [], 
+        "extensions": [
+            "psafe3"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Password Safe v3", 
+        "devices": [], 
+        "extensions": [
+            "psafe3"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "PeopleSoft", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "phpass, MD5(Wordpress), MD5(phpBB3), MD5(Joomla)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "PHPS", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "PostgreSQL", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "RACF", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Radmin2", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Redmine Project Management Web App", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "RipeMD160", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SAP CODVN B (BCODE)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SAP CODVN F/G (PASSCODE)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SHA1", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha1(LinkedIn)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha1(md5($pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha1($pass.$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha1($salt.$pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha1($salt.unicode($pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha1(unicode($pass).$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SHA256", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha256crypt, SHA256(Unix)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha256($pass.$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha256($salt.$pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha256($salt.unicode($pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha256(unicode($pass).$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SHA-3(Keccak)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SHA512", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha512crypt, SHA512(Unix)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha512($pass.$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha512($salt.$pass)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha512($salt.unicode($pass))", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "sha512(unicode($pass).$salt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SipHash", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Skype", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SMF > v1.1", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SSHA-512(Base64), LDAP {SSHA512}", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Sybase ASE", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-RipeMD160", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-RipeMD160 + boot-mode", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-RipeMD160 + boot-mode + hidden-volume", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-RipeMD160 + hidden-volume", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-SHA512", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-SHA512 + hidden-volume", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-Whirlpool", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-Whirlpool + hidden-volume", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img", 
+            "tc"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "vBulletin < v3.8.5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "vBulletin > v3.8.5", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "WBB3, Woltlab Burning Board 3", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Whirlpool", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "WPA/WPA2", 
+        "devices": [], 
+        "extensions": [
+            "hccap"
+        ], 
+        "is_binary": true, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "base64", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }
+]
