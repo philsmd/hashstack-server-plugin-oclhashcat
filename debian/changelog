@@ -1,3 +1,9 @@
+hashstack-server-plugin-oclhashcat (1.31-1sagitta1) precise; urgency=low
+
+  * fix algorithm name for ms office formats
+
+ -- root <root@token>  Sat, 01 Nov 2014 18:36:01 -0700
+
 hashstack-server-plugin-oclhashcat (1.31) UNRELEASED; urgency=low
 
   * Initial release.
