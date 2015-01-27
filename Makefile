@@ -1,3 +1,5 @@
+all:
+
 install:
 	mkdir -p $(DESTDIR)/opt/hashstack/server/config
 	mkdir -p $(DESTDIR)/opt/hashstack/server/files/scrapers
