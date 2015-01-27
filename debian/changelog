@@ -1,3 +1,9 @@
+hashstack-server-plugin-oclhashcat (1.32-0sagitta1) precise; urgency=low
+
+  * add new formats for oclHashcat 1.32
+
+ -- epixoip <epixoip@token>  Mon, 26 Jan 2015 23:39:47 -0800
+
 hashstack-server-plugin-oclhashcat (1.31-1sagitta1) precise; urgency=low
 
   * fix algorithm name for ms office formats

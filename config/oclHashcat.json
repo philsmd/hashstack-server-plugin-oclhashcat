@@ -218,6 +218,22 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single"
+    },
+    {
+        "algorithm": "Cram MD5",
+        "devices": [],
+        "extensions": [
+            "txt",
+            "list",
+            "lst"
+        ],
+        "is_binary": false,
+        "requires_scraping": false,
+        "salted": true,
+        "scraper": "",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "single"
     }, 
     {
         "algorithm": "descrypt, DES(Unix), Traditional DES", 
@@ -1603,6 +1619,22 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single"
+    },
+    {
+        "algorithm": "SAP CODVN H (PWDSALTEDHASH)",
+        "devices": [],
+        "extensions": [
+            "txt",
+            "list",
+            "lst"
+        ],
+        "is_binary": false,
+        "requires_scraping": false,
+        "salted": true,
+        "scraper": "",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "single"
     }, 
     {
         "algorithm": "SHA1", 
@@ -1683,7 +1715,23 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single"
-    }, 
+    },
+    {
+        "algorithm": "sha1($salt.$pass.$salt)",
+        "devices": [],
+        "extensions": [
+            "txt",
+            "list",
+            "lst"
+        ],
+        "is_binary": false,
+        "requires_scraping": false,
+        "salted": true,
+        "scraper": "",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "single"
+    },
     {
         "algorithm": "sha1($salt.unicode($pass))", 
         "devices": [], 
@@ -1810,6 +1858,22 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
+        "upload": "single"
+    },
+    {
+        "algorithm": "SHA384",
+        "devices": [],
+        "extensions": [
+            "txt",
+            "list",
+            "lst"
+        ],
+        "is_binary": false,
+        "requires_scraping": false,
+        "salted": false,
+        "scraper": "",
+        "scraper_args": [],
+        "supported": false,
         "upload": "single"
     }, 
     {
