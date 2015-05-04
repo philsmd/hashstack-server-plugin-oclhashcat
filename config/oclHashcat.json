@@ -41,7 +41,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "{smd5}%08s$%22s"
     }, 
     {
         "algorithm": "AIX {ssha1}", 
@@ -57,7 +58,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "{ssha1}%02d$%16s$%27s"
     }, 
     {
         "algorithm": "AIX {ssha256}", 
@@ -73,7 +75,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "{ssha256}%02d$%16s$%43s"
     }, 
     {
         "algorithm": "AIX {ssha512}", 
@@ -89,7 +92,64 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "{ssha512}%02d$%16s$%86s"
+    }, 
+    {
+        "algorithm": "Adobe PDF 1.1 - 1.3 (Acrobat 2 - 4)", 
+        "devices": [], 
+        "extensions": [
+            "pdf"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "pdf2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Adobe PDF 1.4 - 1.6 (Acrobat 5 - 8)", 
+        "devices": [], 
+        "extensions": [
+            "pdf"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "pdf2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Adobe PDF 1.7 Level 3 (Acrobat 9)", 
+        "devices": [], 
+        "extensions": [
+            "pdf"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "pdf2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Adobe PDF 1.7 Level 8 (Acrobat 10 - 11)", 
+        "devices": [], 
+        "extensions": [
+            "pdf"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "pdf2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
     }, 
     {
         "algorithm": "Android FDE <= 4.3", 
@@ -121,7 +181,22 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%16x"
+    }, 
+    {
+        "algorithm": "Bitcoin/Litecoin wallet.dat", 
+        "devices": [], 
+        "extensions": [
+            "dat"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "bitcoin2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
     }, 
     {
         "algorithm": "Cisco $8$", 
@@ -137,7 +212,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$8$%14s$%43s"
     }, 
     {
         "algorithm": "Cisco $9$", 
@@ -153,7 +229,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$9$%14s$%43s"
     }, 
     {
         "algorithm": "Cisco-ASA MD5", 
@@ -169,7 +246,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%16s:%*s"
     }, 
     {
         "algorithm": "Cisco-IOS SHA256", 
@@ -185,7 +263,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%43s"
     }, 
     {
         "algorithm": "Cisco-PIX MD5", 
@@ -197,11 +276,12 @@
         ], 
         "is_binary": false, 
         "requires_scraping": false, 
-        "salted": true, 
+        "salted": false, 
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%16s"
     }, 
     {
         "algorithm": "Citrix Netscaler", 
@@ -217,23 +297,42 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
-    },
+        "upload": "single", 
+        "valid": "%49x"
+    }, 
     {
-        "algorithm": "Cram MD5",
-        "devices": [],
+        "algorithm": "Cram MD5", 
+        "devices": [], 
         "extensions": [
-            "txt",
-            "list",
+            "txt", 
+            "list", 
             "lst"
-        ],
-        "is_binary": false,
-        "requires_scraping": false,
-        "salted": true,
-        "scraper": "",
-        "scraper_args": [],
-        "supported": false,
-        "upload": "single"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "$cram_md5$%32s$%52s"
+    }, 
+    {
+        "algorithm": "CRC32", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "%08x:%08x"
     }, 
     {
         "algorithm": "descrypt, DES(Unix), Traditional DES", 
@@ -249,7 +348,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%13s"
     }, 
     {
         "algorithm": "Django (PBKDF2-SHA256)", 
@@ -265,7 +365,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "pbkdf2_sha256$%*d$%12s$%44x"
     }, 
     {
         "algorithm": "Django (SHA-1)", 
@@ -277,11 +378,12 @@
         ], 
         "is_binary": false, 
         "requires_scraping": false, 
-        "salted": false, 
+        "salted": true, 
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "sha1$%05x$%40x"
     }, 
     {
         "algorithm": "DNSSEC (NSEC3)", 
@@ -297,7 +399,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32s:%*s:%*d:%*d"
     }, 
     {
         "algorithm": "Domain Cached Credentials, mscash", 
@@ -313,7 +416,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "Domain Cached Credentials2, mscash2", 
@@ -329,7 +433,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$DCC2$%*d#%*l#%32x"
     }, 
     {
         "algorithm": "Double MD5", 
@@ -345,7 +450,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "Double SHA1", 
@@ -361,7 +467,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x"
     }, 
     {
         "algorithm": "Drupal7", 
@@ -377,7 +484,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$S$%52s"
     }, 
     {
         "algorithm": "EPiServer 6.x < v4", 
@@ -393,7 +501,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$episerver$*0*%24s*%*s"
     }, 
     {
         "algorithm": "EPiServer 6.x > v4", 
@@ -409,7 +518,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$episerver$*0*%24s*%*s"
     }, 
     {
         "algorithm": "GOST R 34.11-94", 
@@ -425,7 +535,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x"
     }, 
     {
         "algorithm": "GRUB 2", 
@@ -441,7 +552,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "grub.pbkdf2.sha512.%*d.%128x.%128x"
     }, 
     {
         "algorithm": "Half MD5", 
@@ -457,7 +569,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%16x"
     }, 
     {
         "algorithm": "HMAC-MD5 (key = $pass)", 
@@ -473,7 +586,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "HMAC-MD5 (key = $salt)", 
@@ -489,7 +603,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "HMAC-SHA1 (key = $pass)", 
@@ -505,7 +620,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%*s"
     }, 
     {
         "algorithm": "HMAC-SHA1 (key = $salt)", 
@@ -521,7 +637,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%*s"
     }, 
     {
         "algorithm": "HMAC-SHA256 (key = $pass)", 
@@ -537,7 +654,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x:%*s"
     }, 
     {
         "algorithm": "HMAC-SHA256 (key = $salt)", 
@@ -553,7 +671,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x:%*s"
     }, 
     {
         "algorithm": "HMAC-SHA512 (key = $pass)", 
@@ -569,7 +688,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x:%*s"
     }, 
     {
         "algorithm": "HMAC-SHA512 (key = $salt)", 
@@ -585,7 +705,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x:%*s"
     }, 
     {
         "algorithm": "hMailServer", 
@@ -601,7 +722,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%70x"
     }, 
     {
         "algorithm": "IKE-PSK MD5", 
@@ -617,7 +739,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%256x:%256x:%16x:%16x:%320x:%16x:%40x:%40x:%32x"
     }, 
     {
         "algorithm": "IKE-PSK SHA1", 
@@ -629,11 +752,12 @@
         ], 
         "is_binary": false, 
         "requires_scraping": false, 
-        "salted": false, 
+        "salted": true, 
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%256x:%256x:%16x:%16x:%320x:%16x:%40x:%40x:%40x"
     }, 
     {
         "algorithm": "IPB2+, MyBB1.2+", 
@@ -649,7 +773,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*d"
     }, 
     {
         "algorithm": "IPMI2 RAKP HMAC-SHA1", 
@@ -665,7 +790,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%130x:%40x"
     }, 
     {
         "algorithm": "Joomla < 2.5.18", 
@@ -681,7 +807,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%32d"
     }, 
     {
         "algorithm": "Juniper IVE", 
@@ -697,7 +824,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%104s"
     }, 
     {
         "algorithm": "Juniper Netscreen/SSG (ScreenOS)", 
@@ -713,7 +841,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%30s:%*s"
     }, 
     {
         "algorithm": "Kerberos 5 AS-REQ Pre-Auth etype 23", 
@@ -729,7 +858,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$krb5pa$%*d$%*s$%*s$%*s$%104x"
     }, 
     {
         "algorithm": "Lastpass", 
@@ -745,7 +875,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*d:%*s"
     }, 
     {
         "algorithm": "LM", 
@@ -761,7 +892,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%16x"
     }, 
     {
         "algorithm": "Lotus Notes/Domino 5", 
@@ -777,7 +909,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "Lotus Notes/Domino 6", 
@@ -793,7 +926,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "(%20s)"
     }, 
     {
         "algorithm": "Lotus Notes/Domino 8", 
@@ -809,7 +943,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "(%49s)"
     }, 
     {
         "algorithm": "MD4", 
@@ -825,7 +960,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "MD5", 
@@ -841,7 +977,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "md5apr1, MD5(APR), Apache MD5", 
@@ -857,7 +994,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$apr1$%*s$%22s"
     }, 
     {
         "algorithm": "MD5(Chap), iSCSI CHAP authentication", 
@@ -873,7 +1011,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%32d:%02d"
     }, 
     {
         "algorithm": "md5crypt, MD5(Unix), FreeBSD MD5, Cisco-IOS MD5", 
@@ -889,7 +1028,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$1$%*s$%22s"
     }, 
     {
         "algorithm": "md5($pass.$salt)", 
@@ -905,7 +1045,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5($pass.$salt.$pass)", 
@@ -921,7 +1062,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5($salt.md5($pass))", 
@@ -937,7 +1079,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5($salt.$pass)", 
@@ -953,7 +1096,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5($salt.unicode($pass))", 
@@ -969,7 +1113,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "md5(sha1($pass))", 
@@ -985,7 +1130,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "md5(strtoupper(md5($pass)))", 
@@ -1001,7 +1147,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "md5(unicode($pass).$salt)", 
@@ -1017,7 +1164,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "MediaWiki B-type", 
@@ -1033,7 +1181,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$B$%08d$%32x"
     }, 
     {
         "algorithm": "Microsoft Office 97-2003 MD5 + RC4", 
@@ -1177,62 +1326,6 @@
         "upload": "multi"
     }, 
     {
-        "algorithm": "PDF 1.1 - 1.3 (Acrobat 2 - 4)", 
-        "devices": [], 
-        "extensions": [
-            "pdf"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "pdf2hashcat.py", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
-        "algorithm": "PDF 1.4 - 1.6 (Acrobat 5 - 8)", 
-        "devices": [], 
-        "extensions": [
-            "pdf"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "pdf2hashcat.py", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
-        "algorithm": "PDF 1.7 Level 3 (Acrobat 9)", 
-        "devices": [], 
-        "extensions": [
-            "pdf"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "pdf2hashcat.py", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
-        "algorithm": "PDF 1.7 Level 8 (Acrobat 10 - 11)", 
-        "devices": [], 
-        "extensions": [
-            "pdf"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "pdf2hashcat.py", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
         "algorithm": "MSSQL(2000)", 
         "devices": [], 
         "extensions": [
@@ -1246,7 +1339,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "0x%92x"
     }, 
     {
         "algorithm": "MSSQL(2005)", 
@@ -1262,7 +1356,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "0x%52x"
     }, 
     {
         "algorithm": "MSSQL(2012), MSSQL(2014)", 
@@ -1278,7 +1373,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "0x%140x"
     }, 
     {
         "algorithm": "MySQL323", 
@@ -1294,7 +1390,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%16x"
     }, 
     {
         "algorithm": "MySQL4.1/MySQL5", 
@@ -1310,7 +1407,25 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x"
+    }, 
+    {
+        "algorithm": "MySQL Challenge-Response Authentication (SHA1)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "$mysqlna$%40x*%40x"
     }, 
     {
         "algorithm": "NetNTLMv1-VANILLA / NetNTLMv1+ESS", 
@@ -1326,7 +1441,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%*s::%*s:%48x:%48x:%16x"
     }, 
     {
         "algorithm": "NetNTLMv2", 
@@ -1342,7 +1458,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%*s::%*s:%16x:%32x:%106x"
     }, 
     {
         "algorithm": "nsldap, SHA-1(Base64), Netscape LDAP SHA", 
@@ -1358,7 +1475,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "{SHA}%28s"
     }, 
     {
         "algorithm": "nsldaps, SSHA-1(Base64), Netscape LDAP SSHA", 
@@ -1374,7 +1492,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "{SSHA}%40s"
     }, 
     {
         "algorithm": "NTLM", 
@@ -1390,23 +1509,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
-    }, 
-    {
-        "algorithm": "Oracle 11g/12c", 
-        "devices": [], 
-        "extensions": [
-            "txt", 
-            "list", 
-            "lst"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": false, 
-        "salted": true, 
-        "scraper": "", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "Oracle 7-10g, DES(Oracle)", 
@@ -1422,7 +1526,25 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%16x:%10d"
+    }, 
+    {
+        "algorithm": "Oracle 11g/12c", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "%40x:%20d"
     }, 
     {
         "algorithm": "osCommerce, xt:Commerce", 
@@ -1438,7 +1560,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%02x"
     }, 
     {
         "algorithm": "OSX v10.4, v10.5, v10.6", 
@@ -1454,7 +1577,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%48x"
     }, 
     {
         "algorithm": "OSX v10.7", 
@@ -1470,7 +1594,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%136x"
     }, 
     {
         "algorithm": "OSX v10.8 / v10.9", 
@@ -1481,12 +1606,13 @@
             "lst"
         ], 
         "is_binary": false, 
-        "requires_scraping": true, 
+        "requires_scraping": false, 
         "salted": false, 
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$ml$%*d$%64x$%128x"
     }, 
     {
         "algorithm": "Password Safe v2", 
@@ -1517,6 +1643,23 @@
         "upload": "single"
     }, 
     {
+        "algorithm": "PBKDF2-HMAC-SHA256", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "sha256:%*d:%32s:%32s"
+    }, 
+    {
         "algorithm": "PeopleSoft", 
         "devices": [], 
         "extensions": [
@@ -1530,7 +1673,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%28s"
     }, 
     {
         "algorithm": "phpass, MD5(Wordpress), MD5(phpBB3), MD5(Joomla)", 
@@ -1546,7 +1690,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$P$%31s"
     }, 
     {
         "algorithm": "PHPS", 
@@ -1562,7 +1707,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$PHPS$%14s$%32x"
     }, 
     {
         "algorithm": "PostgreSQL", 
@@ -1578,7 +1724,42 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
+    }, 
+    {
+        "algorithm": "PostgreSQL Challenge-Response Authentication (MD5)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "$postgres$%*s*%08x*%32x"
+    }, 
+    {
+        "algorithm": "PrestaShop", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "%32x:%56s"
     }, 
     {
         "algorithm": "RACF", 
@@ -1594,7 +1775,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$racf$*%*u*%16X"
     }, 
     {
         "algorithm": "Radmin2", 
@@ -1610,7 +1792,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x"
     }, 
     {
         "algorithm": "Redmine Project Management Web App", 
@@ -1626,7 +1809,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%32x"
     }, 
     {
         "algorithm": "RipeMD160", 
@@ -1642,7 +1826,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x"
     }, 
     {
         "algorithm": "SAP CODVN B (BCODE)", 
@@ -1658,7 +1843,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%*s$%16x"
     }, 
     {
         "algorithm": "SAP CODVN F/G (PASSCODE)", 
@@ -1674,23 +1860,25 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
-    },
+        "upload": "single", 
+        "valid": "%*s$%16x"
+    }, 
     {
-        "algorithm": "SAP CODVN H (PWDSALTEDHASH)",
-        "devices": [],
+        "algorithm": "SAP CODVN H (PWDSALTEDHASH)", 
+        "devices": [], 
         "extensions": [
-            "txt",
-            "list",
+            "txt", 
+            "list", 
             "lst"
-        ],
-        "is_binary": false,
-        "requires_scraping": false,
-        "salted": true,
-        "scraper": "",
-        "scraper_args": [],
-        "supported": false,
-        "upload": "single"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "{x-issha, %*d}%44s"
     }, 
     {
         "algorithm": "SHA1", 
@@ -1706,7 +1894,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x"
     }, 
     {
         "algorithm": "sha1(LinkedIn)", 
@@ -1722,7 +1911,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x"
     }, 
     {
         "algorithm": "sha1(md5($pass))", 
@@ -1738,7 +1928,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x"
     }, 
     {
         "algorithm": "sha1($pass.$salt)", 
@@ -1754,7 +1945,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%*s"
     }, 
     {
         "algorithm": "sha1($salt.$pass)", 
@@ -1770,24 +1962,26 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
-    },
+        "upload": "single", 
+        "valid": "%40x:%*s"
+    }, 
     {
-        "algorithm": "sha1($salt.$pass.$salt)",
-        "devices": [],
+        "algorithm": "sha1($salt.$pass.$salt)", 
+        "devices": [], 
         "extensions": [
-            "txt",
-            "list",
+            "txt", 
+            "list", 
             "lst"
-        ],
-        "is_binary": false,
-        "requires_scraping": false,
-        "salted": true,
-        "scraper": "",
-        "scraper_args": [],
-        "supported": false,
-        "upload": "single"
-    },
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "%40x:%*s"
+    }, 
     {
         "algorithm": "sha1($salt.unicode($pass))", 
         "devices": [], 
@@ -1802,7 +1996,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%*s"
     }, 
     {
         "algorithm": "sha1(unicode($pass).$salt)", 
@@ -1818,7 +2013,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%*s"
     }, 
     {
         "algorithm": "SHA256", 
@@ -1834,7 +2030,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x"
     }, 
     {
         "algorithm": "sha256crypt, SHA256(Unix)", 
@@ -1850,7 +2047,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$5$%*s$%43s"
     }, 
     {
         "algorithm": "sha256($pass.$salt)", 
@@ -1866,7 +2064,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x:%*s"
     }, 
     {
         "algorithm": "sha256($salt.$pass)", 
@@ -1882,7 +2081,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x:%*s"
     }, 
     {
         "algorithm": "sha256($salt.unicode($pass))", 
@@ -1898,7 +2098,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x:%*s"
     }, 
     {
         "algorithm": "sha256(unicode($pass).$salt)", 
@@ -1914,23 +2115,25 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
-    },
+        "upload": "single", 
+        "valid": "%64x:%*s"
+    }, 
     {
-        "algorithm": "SHA384",
-        "devices": [],
+        "algorithm": "SHA384", 
+        "devices": [], 
         "extensions": [
-            "txt",
-            "list",
+            "txt", 
+            "list", 
             "lst"
-        ],
-        "is_binary": false,
-        "requires_scraping": false,
-        "salted": false,
-        "scraper": "",
-        "scraper_args": [],
-        "supported": false,
-        "upload": "single"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single", 
+        "valid": "%96x"
     }, 
     {
         "algorithm": "SHA-3(Keccak)", 
@@ -1946,7 +2149,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%64x"
     }, 
     {
         "algorithm": "SHA512", 
@@ -1962,7 +2166,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x"
     }, 
     {
         "algorithm": "sha512crypt, SHA512(Unix)", 
@@ -1978,7 +2183,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "$6$%*s$%86s"
     }, 
     {
         "algorithm": "sha512($pass.$salt)", 
@@ -1994,7 +2200,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x:%*s"
     }, 
     {
         "algorithm": "sha512($salt.$pass)", 
@@ -2010,7 +2217,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x:%*s"
     }, 
     {
         "algorithm": "sha512($salt.unicode($pass))", 
@@ -2026,7 +2234,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x:%*s"
     }, 
     {
         "algorithm": "sha512(unicode($pass).$salt)", 
@@ -2042,7 +2251,23 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x:%*s"
+    }, 
+    {
+        "algorithm": "SIP digest authentication (MD5)", 
+        "devices": [], 
+        "extensions": [
+            "dump", 
+            "txt"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "sipdump2hashcat.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
     }, 
     {
         "algorithm": "SipHash", 
@@ -2054,11 +2279,12 @@
         ], 
         "is_binary": false, 
         "requires_scraping": false, 
-        "salted": false, 
+        "salted": true, 
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%16x:%*d:%*d:%32x"
     }, 
     {
         "algorithm": "Skype", 
@@ -2070,11 +2296,12 @@
         ], 
         "is_binary": false, 
         "requires_scraping": false, 
-        "salted": false, 
+        "salted": true, 
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%*s"
     }, 
     {
         "algorithm": "SMF > v1.1", 
@@ -2090,7 +2317,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%*s"
     }, 
     {
         "algorithm": "SSHA-512(Base64), LDAP {SSHA512}", 
@@ -2106,7 +2334,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "{SSHA512}%96s"
     }, 
     {
         "algorithm": "Sybase ASE", 
@@ -2122,7 +2351,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "0x%84x"
     }, 
     {
         "algorithm": "TrueCrypt 5.0+ AES-PBKDF2-HMAC-RipeMD160", 
@@ -2274,7 +2504,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%03s"
     }, 
     {
         "algorithm": "vBulletin > v3.8.5", 
@@ -2290,7 +2521,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%32x:%30s"
     }, 
     {
         "algorithm": "WBB3, Woltlab Burning Board 3", 
@@ -2306,7 +2538,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%40x:%40s"
     }, 
     {
         "algorithm": "Whirlpool", 
@@ -2322,7 +2555,8 @@
         "scraper": "", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "single"
+        "upload": "single", 
+        "valid": "%128x"
     }, 
     {
         "algorithm": "WPA/WPA2", 
