@@ -862,7 +862,7 @@
         "valid": "$krb5pa$%*d$%*s$%*s$%*s$%104x"
     }, 
     {
-        "algorithm": "Lastpass", 
+        "algorithm": "Lastpass (cached)", 
         "devices": [], 
         "extensions": [
             "txt", 

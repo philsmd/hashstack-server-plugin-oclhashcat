@@ -1,3 +1,9 @@
+hashstack-server-plugin-oclhashcat (1.36-0sagitta1) precise; urgency=low
+
+  * update to oclHashcat 1.36
+
+ -- epixoip <epixoip@token>  Tue, 05 May 2015 19:04:05 -0700
+
 hashstack-server-plugin-oclhashcat (1.32-0sagitta1) precise; urgency=low
 
   * add new formats for oclHashcat 1.32
