@@ -1442,7 +1442,7 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single", 
-        "valid": "%*s::%*s:%48x:%48x:%16x"
+        "valid": "%*u::%*u:%48x:%48x:%16x"
     }, 
     {
         "algorithm": "NetNTLMv2", 
@@ -1459,7 +1459,7 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single", 
-        "valid": "%*s::%*s:%16x:%32x:%106x"
+        "valid": "%*u::%*u:%16x:%32x:%106x"
     }, 
     {
         "algorithm": "nsldap, SHA-1(Base64), Netscape LDAP SHA", 
