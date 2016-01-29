@@ -1,3 +1,15 @@
+hashstack-server-plugin-oclhashcat (2.01-0sagitta1) trusty; urgency=medium
+
+  * add new formats & scrapers
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Thu, 28 Jan 2016 19:27:06 -0800
+
+hashstack-server-plugin-oclhashcat (1.36-1sagitta1) precise; urgency=low
+
+  * fix netntlm validators
+
+ -- epixoip <epixoip@token>  Thu, 14 May 2015 08:31:28 -0700
+
 hashstack-server-plugin-oclhashcat (1.36-0sagitta1) precise; urgency=low
 
   * update to oclHashcat 1.36

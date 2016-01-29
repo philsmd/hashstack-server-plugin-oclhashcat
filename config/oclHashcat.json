@@ -1527,7 +1527,7 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single", 
-        "valid": "%16x:%10d"
+        "valid": "%16X:%10d"
     }, 
     {
         "algorithm": "Oracle 11g/12c", 
@@ -2571,5 +2571,109 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single"
+    },
+    {
+        "algorithm": "7zip",
+        "devices": [],
+        "extensions": [
+            "7z"
+        ],
+        "is_binary": false,
+        "requires_scraping": true,
+        "salted": true,
+        "scraper": "7z2hashcat.pl",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "multi"
+    },
+    {
+        "algorithm": "Blockchain.info Wallet",
+        "devices": [],
+        "extensions": [
+            "dat"
+        ],
+        "is_binary": false,
+        "requires_scraping": true,
+        "salted": true,
+        "scraper": "blockchain2hashcat.py",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "multi"
+    },
+    {
+        "algorithm": "PBKDF2-HMAC-SHA1",
+        "devices": [],
+        "extensions": [
+            "txt",
+            "list",
+            "lst"
+        ],
+        "is_binary": false,
+        "requires_scraping": false,
+        "salted": true,
+        "scraper": "",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "single",
+        "valid": "sha1:%*d:%*s:%*s"
+    },
+    {
+        "algorithm": "Apple iOS 7+ .plist",
+        "devices": [],
+        "extensions": [
+            "plist"
+        ],
+        "is_binary": false,
+        "requires_scraping": true,
+        "salted": true,
+        "scraper": "plist2hashcat.pl",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "multi"
+    },
+    {
+        "algorithm": "PBKDF2-HMAC-SHA512",
+        "devices": [],
+        "extensions": [
+            "txt",
+            "list",
+            "lst"
+        ],
+        "is_binary": false,
+        "requires_scraping": false,
+        "salted": true,
+        "scraper": "",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "single",
+        "valid": "sha512:%*d:%*s:%*s"
+    },
+    {
+        "algorithm": "RAR 3.x",
+        "devices": [],
+        "extensions": [
+            "rar"
+        ],
+        "is_binary": false,
+        "requires_scraping": true,
+        "salted": true,
+        "scraper": "rar2john",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "multi"
+    },
+    {
+        "algorithm": "eCryptfs",
+        "devices": [],
+        "extensions": [
+            "wrapped-passphrase"
+        ],
+        "is_binary": false,
+        "requires_scraping": true,
+        "salted": true,
+        "scraper": "ecryptfs2hashcat.py",
+        "scraper_args": [],
+        "supported": false,
+        "upload": "multi"
     }
 ]

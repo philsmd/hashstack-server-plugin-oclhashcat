@@ -7,9 +7,7 @@ Build-Depends: make
 
 Package: hashstack-server-plugin-oclhashcat
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}, python
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, perl, libcompress-raw-lzma-perl
 Recommends: hashstack-server-core
 Description: oclHashcat server plugin for Hashstack
- oclHashcat server plugin for Hashstack
- .
- oclHashcat server plugin for Hashstack, based on 1.31
+ oclHashcat server plugin for hashstack
