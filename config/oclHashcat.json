@@ -1527,7 +1527,7 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single", 
-        "valid": "%16X:%10d"
+        "valid": "%16X:%*u"
     }, 
     {
         "algorithm": "Oracle 11g/12c", 
