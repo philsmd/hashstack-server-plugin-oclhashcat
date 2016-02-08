@@ -1544,7 +1544,7 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single", 
-        "valid": "%40x:%20d"
+        "valid": "%40x:%20x"
     }, 
     {
         "algorithm": "osCommerce, xt:Commerce", 
