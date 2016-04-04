@@ -1493,7 +1493,7 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single", 
-        "valid": "{SSHA}%40s"
+        "valid": "{SSHA}%*s"
     }, 
     {
         "algorithm": "NTLM", 
