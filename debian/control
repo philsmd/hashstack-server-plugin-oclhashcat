@@ -1,13 +1,12 @@
-Source: hashstack-server-plugin-oclhashcat
+Source: hashstack-server-plugin-hashcat
 Maintainer: Jeremi Gosney <jgosney@stricture-group.com> 
 Section: misc
 Priority: important
 Standards-Version: 3.9.2
 Build-Depends: make
 
-Package: hashstack-server-plugin-oclhashcat
+Package: hashstack-server-plugin-hashcat
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}, python, perl, libcompress-raw-lzma-perl
-Recommends: hashstack-server-core
-Description: oclHashcat server plugin for Hashstack
- oclHashcat server plugin for hashstack
+Description: Hashcat server plugin for Hashstack
+ Hashcat server plugin for Hashstack

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+restart hashstack-server || start hashstack-server
+
+exit 0

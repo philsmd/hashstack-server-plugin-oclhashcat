@@ -1,35 +1,6 @@
-hashstack-server-plugin-oclhashcat (2.01-0sagitta1) trusty; urgency=medium
+hashstack-server-plugin-hashcat (3.00-0sagitta1) trusty; urgency=medium
 
-  * add new formats & scrapers
+  * initial release
 
- -- Jeremi Gosney <jgosney@sagitta.pw>  Thu, 28 Jan 2016 19:27:06 -0800
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Wed, 22 Jun 2016 02:21:52 -0700
 
-hashstack-server-plugin-oclhashcat (1.36-1sagitta1) precise; urgency=low
-
-  * fix netntlm validators
-
- -- epixoip <epixoip@token>  Thu, 14 May 2015 08:31:28 -0700
-
-hashstack-server-plugin-oclhashcat (1.36-0sagitta1) precise; urgency=low
-
-  * update to oclHashcat 1.36
-
- -- epixoip <epixoip@token>  Tue, 05 May 2015 19:04:05 -0700
-
-hashstack-server-plugin-oclhashcat (1.32-0sagitta1) precise; urgency=low
-
-  * add new formats for oclHashcat 1.32
-
- -- epixoip <epixoip@token>  Mon, 26 Jan 2015 23:39:47 -0800
-
-hashstack-server-plugin-oclhashcat (1.31-1sagitta1) precise; urgency=low
-
-  * fix algorithm name for ms office formats
-
- -- root <root@token>  Sat, 01 Nov 2014 18:36:01 -0700
-
-hashstack-server-plugin-oclhashcat (1.31) UNRELEASED; urgency=low
-
-  * Initial release.
-
- -- Jeremi Gosney <jgosney@stricture-group.com>  Mon, 29 Sep 2014 20:33:27 -0700
