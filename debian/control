@@ -8,5 +8,7 @@ Build-Depends: make
 Package: hashstack-server-plugin-hashcat
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}, python, perl, libcompress-raw-lzma-perl
+Replaces: hashstack-server-plugin-oclhashcat, hashstack-server-plugin-hashcat-cli
+Breaks: hashstack-server-plugin-oclhashcat, hashstack-server-plugin-hashcat-cli
 Description: Hashcat server plugin for Hashstack
  Hashcat server plugin for Hashstack
